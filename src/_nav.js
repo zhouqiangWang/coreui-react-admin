@@ -2,11 +2,6 @@ import React from 'react'
 import CIcon from '@coreui/icons-react'
 import {
   cilHeart,
-  // cilNotes,
-  // cilPencil,
-  // cilPuzzle,
-  // cilSpeedometer,
-  // cilStar,
   cilCloudUpload,
 } from '@coreui/icons'
 // import {MdCloudUpload} from 'react-icons/md'
