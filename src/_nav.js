@@ -1,9 +1,6 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
-import {
-  cilHeart,
-  cilCloudUpload,
-} from '@coreui/icons'
+import { cilHeart, cilCloudUpload } from '@coreui/icons'
 // import {MdCloudUpload} from 'react-icons/md'
 import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
 
