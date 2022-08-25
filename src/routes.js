@@ -4,7 +4,8 @@ const About = React.lazy(() => import('./views/about/About'))
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
-const Upload = React.lazy(() => import('./views/buttons/buttons/Buttons'))
+// const Upload = React.lazy(() => import('./views/notifications/modals/Modals'))
+const Upload = React.lazy(() => import('./views/upload-dialog/UploadDialog')) // /Users/zhouqiangw/Desktop/studio/coreui-react-admin/src/views/upload-dialog/index.js
 
 // Base
 const Accordion = React.lazy(() => import('./views/base/accordion/Accordion'))
