@@ -18,35 +18,27 @@ const UploadDialog = () => {
       <CButton onClick={() => setVisible(!visible)}>Launch demo modal</CButton>
       <CModal alignment="center" visible={visible} onClose={() => setVisible(false)}>
         <CModalHeader>
-          <CModalTitle>Modal title</CModalTitle>
+          <CModalTitle>Upload Your Audio File.</CModalTitle>
         </CModalHeader>
         <CModalBody>
-          <h5>Popover in a modal</h5>
+          <h5>Online</h5>
           <p>
-            This
-            <CPopover title="Popover title" content="Popover body content is set in this property.">
-              <CButton>button</CButton>
-            </CPopover>{' '}
-            triggers a popover on click.
-          </p>
-          <hr />
-          <h5>Tooltips in a modal</h5>
-          <p>
-            <CTooltip content="Tooltip">
-              <CLink>This link</CLink>
+            This could be
+            <CTooltip content="Google Drive">
+              <CLink>Google Drive</CLink>
             </CTooltip>{' '}
             and
-            <CTooltip content="Tooltip">
-              <CLink>that link</CLink>
+            <CTooltip content="Dropbox">
+              <CLink>Dropbox</CLink>
             </CTooltip>{' '}
-            have tooltips on hover.
+            links.
           </p>
         </CModalBody>
         <CModalFooter>
+          <CButton color="primary">Choose from computer</CButton>
           <CButton color="secondary" onClick={() => setVisible(false)}>
             Close
           </CButton>
-          <CButton color="primary">Save changes</CButton>
         </CModalFooter>
       </CModal>
     </>
