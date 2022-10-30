@@ -23,11 +23,11 @@ const UploadDialog = () => {
         <CModalBody>
           <h5>Online</h5>
           <p>
-            This could be
+            This could be&nbsp;
             <CTooltip content="Google Drive">
               <CLink>Google Drive</CLink>
             </CTooltip>{' '}
-            and
+            and&nbsp;
             <CTooltip content="Dropbox">
               <CLink>Dropbox</CLink>
             </CTooltip>{' '}
